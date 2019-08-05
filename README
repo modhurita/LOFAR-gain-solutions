@@ -1,0 +1,23 @@
+# LOFAR gain solutions analysis
+# Modhurita Mitra, modhurita@gmail.com
+# 29 July 2019
+
+Working directory on Dawn cluster at University of Groningen: /home/users/modhurita/LOFAR_gain_solutions
+
+# Reading sagecal gain solutions:
+
+The python files, read_{dd,di}_gain_solutions.py, read the gain solutions from the {direction-dependent, direction-independent} solutions files into .npz data files. The parameters that need to be set are specified at the top of these files.
+
+# Example solution files:
+
+dd_data_obsid_L205861_cluster_95.npz : Direction-dependent gain solutions, observation ID L205861, cluster 95. 
+
+di_data_obsid_L205861_column_1.npz: Direction-dependent gain solutions, observation ID L205861.
+
+# Plotting sagecal gain solutions:
+
+The Jupyter notebook files, plot_{dd,di}_gain_solutions.ipynb, read in the respective {direction-dependent, direction-independent} .npz data files and produce the visualization plots.
+
+# Results: Presentation.pdf
+
+ Contains the results presented at the LOFAR Plenary Meeting in Groningen in February 2018.
